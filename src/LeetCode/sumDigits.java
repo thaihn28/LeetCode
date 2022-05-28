@@ -5,7 +5,7 @@ public class sumDigits {
         public static void main(String[] args) {
             int numX = 20;
             int numY = 5;
-            System.out.println(sumDigits(numX, numY));
+            System.out.println(SumDigits(numX, numY));
 
         }
         public static int  SumDigits(int numX, int numY)
