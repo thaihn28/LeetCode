@@ -1,6 +1,6 @@
 package LeetCode;
 
-public class sumDigits {
+public class SumDigits {
         public static void main(String[] args) {
             int numX = 20;
             int numY =5;
