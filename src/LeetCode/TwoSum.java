@@ -23,9 +23,12 @@ public class TwoSum {
 //    }
 
     public static void main(String[] args) {
-        int[] arr = {5, 2, 11, 7, 15};
+        int[] arr = {5, 2, 4, 7, 15};
         int target = 9;
-        twoSum(arr, target);
+        int[] arr3 = twoSum(arr, target);
+        for (int i = 0; i < arr3.length; i++){
+            System.out.println(arr3[i]);
+        }
     }
 
 
@@ -49,9 +52,9 @@ public class TwoSum {
             int b = target - a;
             if (map.containsKey(b)) {
                 // Index of the current element
-                result[0] = i;
+                result[1] = i;
                 // Index of the other element of the pair
-                result[1] = map.get(b);
+                result[0] = map.get(b);
             }
             // If we have not seen the current before
             // It means we have not yet encountered any number of the pair

@@ -16,7 +16,6 @@ public class PhanTichSoNguyen {
             System.out.print(listNumbers.get(i) + " x ");
         }
         System.out.print(listNumbers.get(listNumbers.size() - 1));
-
     }
 
     public static List<Integer> phanTichSoNguyen(int n){
