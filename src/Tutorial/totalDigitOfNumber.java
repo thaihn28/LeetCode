@@ -7,6 +7,7 @@ public class totalDigitOfNumber {
         int num = ScannerIns.SC.nextInt();
 
         String convertNum = Integer.toString(num);
+        System.out.println(convertNum);
 
         System.out.println(totalDigitsOfNumber(num));
 
